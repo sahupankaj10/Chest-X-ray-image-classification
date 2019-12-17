@@ -18,9 +18,9 @@ In the current problem three types of images has been given - bacterial and vira
 - saved model 
 
 ## Use saved model
-    ```
+
     new_model = tf.keras.models.load_model('xray-pneumonia-depthwise-convolution.h5')
-    ```
+    
 
 # Result: Accuracy, Precion or Recall
 The classes are imbalanced therefore validation accuracy won't be a good metric to analyze the model performance. The other metric, recall, precison and confusion matrix is good alternative to see the performance of the model. In this model, we got almost 98% recall value and 90% precison which is pretty good.
